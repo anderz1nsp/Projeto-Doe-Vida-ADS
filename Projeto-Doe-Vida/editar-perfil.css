@@ -1,0 +1,83 @@
+.login-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 3rem 0; 
+}
+
+.login-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+.form-titulo {
+    font-size: 1.8rem; 
+    color: #c00;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.perfil-foto-upload {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 2rem;
+}
+
+.perfil-foto-grande {
+    width: 8rem; 
+    height: 8rem; 
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 3px solid #f0f0f0;
+    background-color: #eee; 
+}
+
+.perfil-foto-upload a {
+    color: #c00;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.perfil-foto-upload a:hover {
+    text-decoration: underline;
+}
+
+.form-grupo {
+    margin-bottom: 1.5rem; 
+    text-align: left;
+}
+.form-grupo label {
+    display: block;
+    margin-bottom: 0.5rem; 
+    font-weight: bold;
+}
+.form-grupo input {
+    width: 100%;
+    padding: 0.8rem; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.botao-principal {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.botao-principal:hover {
+    background-color: #a00;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Protótipo</title>
+    
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+    <header class="cabecalho">
+        <div class="container">
+            
+            <label for="menu-toggle" class="menu-hamburger">&#9776;</label>
+            
+            <a href="index.html" class="logo">
+                <img src="logo-doe-vida.png" alt="Logo Doe Vida" class="logo-img">
+            </a>
+
+            <a href="login.html" class="botao-login-simples">Entrar</a>
+            
+        </div>
+    </header>
+
+    <nav class="menu-lateral">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="campanhas.html">Campanhas</a></li>
+                <li><a href="index.html#painel-estoque">Estoque de sangue</a></li>
+                <li><a href="como-doar.html">Como doar</a></li>
+                <li><a href="sobre.html">Sobre o projeto Doe Vida</a></li>
+                <li><a href="duvidas.html">Dúvidas</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="login.html">Entrar / Cadastrar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="menu-pc-celular">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="campanhas.html">Campanhas</a></li>
+                <li><a href="index.html#painel-estoque">Estoque de sangue</a></li>
+                <li><a href="como-doar.html">Como doar</a></li>
+                <li><a href="sobre.html">Sobre o projeto Doe Vida</a></li>
+                <li><a href="duvidas.html">Dúvidas</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="login-container">
+            
+            <form class="login-form" action="login.html">
+                
+                <h2 class="form-titulo">Crie sua conta</h2>
+
+                <div class="form-grupo">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" placeholder="Seu nome completo" required>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="seu.email@exemplo.com" required>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Crie uma senha forte" required>
+                </div>
+                
+                <div class="form-grupo">
+                    <label for="confirmar-senha">Confirmar Senha</label>
+                    <input type="password" id="confirmar-senha" placeholder="Repita a senha" required>
+                </div>
+
+                <button type="submit" class="botao-principal">Cadastrar</button>
+                <a href="login.html" class="link-secundario">Já tem uma conta? Entre aqui</a>
+
+            </form>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2025 | Projeto Faculdade | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

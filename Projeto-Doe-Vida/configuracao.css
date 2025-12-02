@@ -1,0 +1,50 @@
+.config-container {
+    padding: 2rem 0; 
+}
+
+.config-titulo {
+    font-size: 1.8rem; 
+    color: #333;
+    margin-bottom: 1.5rem; 
+}
+
+.config-menu {
+    background: #fff;
+    border-radius: 0.5rem; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    overflow: hidden; 
+}
+
+.config-lista {
+    list-style: none; 
+    padding-left: 0;
+}
+
+.config-lista li {
+    border-bottom: 1px solid #f0f0f0; 
+}
+.config-lista li:last-child {
+    border-bottom: none; 
+}
+
+.config-lista a {
+    display: block; 
+    padding: 1.2rem 1.5rem; 
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem; 
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.config-lista a:hover {
+    background-color: #f9f9f9;
+    color: #c00; 
+}
+
+.config-lista a.link-sair {
+    color: #c00; 
+}
+.config-lista a.link-sair:hover {
+    background-color: #fceded; 
+}

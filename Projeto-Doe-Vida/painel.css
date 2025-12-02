@@ -1,0 +1,33 @@
+.painel-boasvindas {
+    background-color: #fff;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.painel-boasvindas h1 {
+    color: #c00;
+    margin-bottom: 1rem;
+}
+
+.painel-boasvindas p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.botao-principal-painel {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #c00; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.botao-principal-painel:hover {
+    background-color: #a00; 
+}

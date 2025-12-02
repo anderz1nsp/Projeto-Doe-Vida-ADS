@@ -1,0 +1,84 @@
+.perfil-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 2rem 0; 
+}
+
+.perfil-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.perfil-foto-grande {
+    width: 9rem; 
+    height: 9rem; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 4px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.perfil-nome-grande {
+    color: #c00; 
+    font-size: 1.8rem; 
+    margin-top: 1rem;
+}
+
+.info-box {
+    background: #fff;
+    border-radius: 0.5rem; 
+    padding: 1.5rem; 
+    margin-bottom: 1.5rem; 
+    width: 90%;
+    max-width: 600px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.info-box h3 {
+    color: #c00;
+    font-size: 1.3rem; 
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f4f4f4; 
+    padding-bottom: 0.5rem;
+}
+
+.info-box p {
+    font-size: 1rem; 
+    line-height: 1.8;
+}
+.info-box p strong {
+    color: #333;
+}
+
+.historico-lista {
+    list-style: none; 
+    padding-left: 0;
+}
+
+.historico-lista li {
+    padding: 0.8rem 0; 
+    border-bottom: 1px solid #f0f0f0; 
+    font-size: 1rem;
+}
+
+.historico-lista li:last-child {
+    border-bottom: none; 
+}
+
+.botao-editar {
+    display: inline-block;
+    padding: 0.8rem 2rem; 
+    background-color: #c00; 
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem; 
+    font-weight: bold;
+    margin-top: 1rem;
+    border: 2px solid #c00;
+    transition: all 0.2s ease;
+}
+
+.botao-editar:hover {
+    background-color: #a00; 
+}

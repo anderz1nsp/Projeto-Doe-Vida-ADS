@@ -1,0 +1,42 @@
+.contato-info-container {
+    padding: 1.5rem 0; 
+}
+
+.contato-info-box {
+    background: #fff;
+    border-radius: 0.5rem; 
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 2rem; 
+}
+
+.contato-info-box p {
+    font-size: 1.1rem; 
+    line-height: 2; 
+    color: #333;
+}
+.contato-info-box p strong {
+    color: #000;
+}
+
+.botao-suporte {
+    display: block; 
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto; 
+    
+    padding: 1rem;
+    background-color: transparent;
+    color: #c00; 
+    border: 2px solid #c00; 
+    border-radius: 0.5rem;
+    
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.botao-suporte:hover {
+    background-color: #fceded; 
+}

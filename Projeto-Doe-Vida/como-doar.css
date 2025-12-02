@@ -1,0 +1,57 @@
+.como-doar-container {
+    padding: 1.5rem 0; 
+}
+
+.conteudo-box {
+    background: #fff;
+    border-radius: 0.5rem; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 1.5rem; 
+    overflow: hidden; 
+}
+
+.conteudo-box img {
+    width: 300px; 
+    max-width: 100%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem; 
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+.passo-a-passo {
+    padding: 1.5rem;  
+}
+.passo-a-passo h2 {
+    font-size: 1.5rem; 
+    color: #c00; 
+    margin-bottom: 1rem;
+}
+.passo-a-passo p {
+    font-size: 1.1rem; 
+    line-height: 1.8;
+    color: #333;
+
+}
+
+.dicas-rapidas {
+    background: #f9f9f9; 
+    border: 1px solid #eee;
+    padding: 1.5rem;
+    margin: 1.5rem; 
+    border-radius: 0.5rem;
+}
+.dicas-rapidas h3 {
+    font-size: 1.3rem; 
+    color: #333;
+    margin-bottom: 1rem;
+}
+.dicas-rapidas ul {
+    list-style: disc; 
+    padding-left: 1.5rem; 
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+}

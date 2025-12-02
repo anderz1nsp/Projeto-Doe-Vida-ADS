@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333;
+    line-height: 1.6;
+}
+
+main {
+    flex-grow: 1; 
+}
+
+.container {
+    width: 90%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.img-responsiva {
+    max-width: 100%; 
+    height: auto; 
+}
+
+h2 {
+    margin-bottom: 1rem; 
+}
+
+.cabecalho {
+    background-color: #c00; 
+    padding: 1rem 0; 
+    color: white; 
+    
+    position: relative;
+    z-index: 1002; 
+}
+.cabecalho .container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative;
+    gap: 15px;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none; 
+}
+.logo-img {
+    max-height: 30px; 
+    width: auto; 
+    display: block; 
+}
+
+.menu-toggle {
+    display: none; 
+}
+
+.menu-hamburger {
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer; 
+    z-index: 1001; 
+    position: relative;
+}
+
+.menu-lateral {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 250px; 
+    height: 100vh; 
+    background-color: #333; 
+    z-index: 1000; 
+    padding-top: 0;
+    overflow-y: auto;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out; 
+}
+
+.menu-toggle:checked ~ .menu-lateral {
+    transform: translateX(0);
+}
+
+.menu-lateral ul {
+    list-style: none; 
+    padding-top: 5rem;
+}
+.menu-lateral li {
+    border-bottom: 1px solid #444; 
+}
+.menu-lateral a {
+    display: block; 
+    padding: 1rem 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+.menu-lateral a:hover {
+    background-color: #c00; 
+}
+
+.botao-login-simples {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.85rem; 
+    padding: 0.4rem 0.8rem; 
+    border: 1px solid white; 
+    border-radius: 5px;
+    transition: all 0.2s ease; 
+}
+
+.botao-login-simples:hover {
+    background-color: white;
+    color: #c00;
+}
+
+.perfil-usuario {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold;
+    border-radius: 50px; 
+    padding: 5px 10px 5px 5px; 
+    transition: background-color 0.2s ease;
+}
+.perfil-usuario:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.perfil-foto {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 10px; 
+    border: 2px solid white; 
+}
+.perfil-nome {
+    font-size: 0.9rem;
+}
+
+.rodape {
+    background-color: #333; 
+    color: #fff; 
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.menu-pc-celular {
+    display: none;
+}
+
+@media (min-width: 1150px) {
+    .menu-hamburger {
+        display: none;
+    }
+    
+    .menu-lateral {
+        display: none !important;
+    }
+    
+    .menu-pc-celular {
+        display: block;
+        background-color: #fff;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    
+    .menu-pc-celular ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .menu-pc-celular a {
+        display: block;
+        padding: 1rem 1.5rem;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-size: 0.9rem;
+        transition: all 0.2s ease;
+    }
+    
+    .menu-pc-celular a:hover {
+        background-color: #f4f4f4;
+        color: #c00;
+    }
+
+}
+
+
+@media (max-width: 1150px) {
+
+
+    .perfil-nome {
+        display: none;
+    }
+    
+}

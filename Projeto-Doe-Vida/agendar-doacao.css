@@ -1,0 +1,67 @@
+.agendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.agendar-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+.agendar-titulo {
+    font-size: 1.8rem;
+    color: #c00;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.agendar-subtitulo {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form-grupo {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+.form-grupo label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-grupo input,
+.form-grupo select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.botao-principal {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.botao-principal:hover {
+    background-color: #a00;
+}
